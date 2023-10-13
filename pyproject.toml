@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "djongo_legal"
+version = "2.0"
+description = ""
+authors = ["한만철 <manuel71.sj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+pymongo = "^4.5.0"
+pytz = "^2023.3.post1"
+
+
+[tool.poetry.group.dev.dependencies]
+build = "^1.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
